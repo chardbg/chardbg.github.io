@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#terminal {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000;
+    border: 1px solid #0f0;
+    max-width: 800px;
+    min-height: 600px;
+}
+
+nav a {
+    color: #0f0;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+h2 {
+    border-bottom: 1px solid #0f0;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Contact and Photos Section Specific Styling */
+#contact p, #photos div {
+    margin-top: 10px;
+}
